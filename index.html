@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+          <div class="fundo"> 
+            <div class="calculadora">
+                <h2>Calculadora Web </h2>
+                <input type="text" id="visor" readonly>
+                <div class="botoes">
+                    <button onclick="adicionaNoVisor('7')">7</button>
+                    <button onclick="adicionaNoVisor('8')">8</button>
+                    <button onclick="adicionaNoVisor('9')">9</button>
+                    <button onclick="adicionaNoVisor('+')">+</button>
+                    <button onclick="adicionaNoVisor('4')">4</button>
+                    <button onclick="adicionaNoVisor('5')">5</button>
+                    <button onclick="adicionaNoVisor('6')">6</button>
+                    <button onclick="adicionaNoVisor('-')">-</button>
+                    <button onclick="adicionaNoVisor('1')">1</button>
+                    <button onclick="adicionaNoVisor('2')">2</button>
+                    <button onclick="adicionaNoVisor('3')">3</button>
+                    <button onclick="adicionaNoVisor('*')">*</button>
+                    <button onclick="adicionaNoVisor('0')">0</button>
+                    <button onclick="adicionaNoVisor('.')">.</button>
+                    <button onclick="calcular()">=</button>
+                    <button onclick="limparVisor()">C</button>
+                    <button onclick="adicionaNoVisor('/')">/</button>
+                </div>
+          </div>
+          <script src="js/index.js"></script>
+    </body>
+</html>

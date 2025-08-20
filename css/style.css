@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  height: 100vh; /* Altura total da tela */
+  margin: 0 auto;
+}
+
+.calculadora {
+  width: 300px;
+  margin: 0% auto;
+  padding: 25px;
+  border: 1px solid #c456c0;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px rgb(0, 0, 0, 0.2);
+  position: absolute;
+  right: 35%;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  background-color: rgb(196, 193, 193);
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.fundo {
+  flex: 1;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("../img/Design\ sem\ nome\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div div h2 {
+  color: #635f5f;
+  font-family: "Times New Roman", Times, serif;
+  height: 40px;
+}
